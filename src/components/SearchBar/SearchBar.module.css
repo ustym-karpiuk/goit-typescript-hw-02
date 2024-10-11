@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 16px;
+}
+
+.input {
+  min-width: 280px;
+  padding: 8px;
+  border-radius: 5px;
+}

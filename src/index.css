@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+
+  --shadow: 0 0 7px #000000;
+  --animation: 0.6s ease-in-out;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  color: currentColor;
+  border: 1px solid currentColor;
+  background-color: transparent;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: inherit;
+  line-height: inherit;
+  transition: box-shadow var(--animation);
+}
+
+button:hover {
+  box-shadow: var(--shadow);
+}
+
+input {
+  color: currentColor;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid currentColor;
+}
+
+input::placeholder {
+  color: #00000070;
+}
